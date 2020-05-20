@@ -1,70 +1,144 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lindemberg Moura</title>
-<link rel="stylesheet" href="css/estilos.css">
-<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
- 
-  
-</head>
-<body>
-  <header>
-		<nav class="menu">
-			<ul>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Projetos</a></li>
-				<li><a href="#">Contato</a></li>
-			</ul>
-		</nav>
-		<div>
-			<h1 class="site-title">Lindemberg Moura</h1>
-			<h2 class="site-subtitle">jr. frontend developer</h2>
-		</div>
-  </header>
-  <section class="portfolio">
-		<h2>Projetos</h2>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L. M.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+   >
 
-		<div class="grid">
-			<figure>
-				<a href="https://codepen.io/Berg747/full/WNQbgNW">
-					<img class="img-portfolio" src="./img/Tardis.jpg" alt="Tardis">
-				</a>	
-				<figcaption>Tardis</figcaption>
-			</figure>
-			<figure>
-				<a href="https://codepen.io/Berg747/full/LYVwWba">
-					<img class="img-portfolio" src="./img/cal. Combustível.webp" alt=">Calculadora de Combustível">
-				</a>			
-				<figcaption>Calculadora de Combustível</figcaption>
-			</figure>
-			<figure>
-				<a href="https://codepen.io/Berg747/full/abOeJqX">
-					<img class="img-portfolio" src="./img/índice.jpg" alt="App de Transporte">
-				</a>			
-				<figcaption>App de Transporte</figcaption>
-			</figure>
-			<figure>
-				<a href="https://codepen.io/Berg747/full/LYVwWba">
-					<img class="img-portfolio" src="./img/Batimento Cardiaco.jpg" alt="Calculadora de Batimento Cardíaco">
-				</a>				
-				<figcaption>Calculadora de Batimento Cardíaco</figcaption>
-			</figure>
-			<figure>
-				<a href="https://codepen.io/Berg747/full/abvovvm">
-					<img class="img-portfolio" src="./img/ideia.jpg" alt="Ideia Uber">	
-				</a>
-				<figcaption>Ideia Uber</figcaption>
-			</figure>
-		</div>
+    <script
+      src="https://kit.fontawesome.com/6d6952c5be.js"
+      crossorigin="anonymous"
+   ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <ul class="container">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="titulo">
+        <h1 class="site-title">Lindemberg Moura</h1>
+        <h2 class="site-subtitle">jr. frontend developer</h2>
+      </div>
+    </header>
+    <section class="sobre container" id="sobre">
+      <h2>Sobre</h2>
 
-		<div id="voltarTopo">
+      <figure class="avatar">
+        <img src="./img/25659360_1405096229600361_8843402866003452629_n.jpg" alt="Lindemberg Moura">
+      </figure>
+
+      <p>
+        Para começar este breve resumo, gostaria de me apresentar.         
+      </p>
+
+      <p>
+        Olá, me chamo <b>Lindemberg Moura</b>,  Moro na cidade do Mossoró/RN, tenho 22 anos e sou apaixonado
+        por tecnologia<i class="fas fa-laptop" aria-hidden="true"></i>. Es­tu­dan­te de Psicologia, na Universidade Potiguar - UnP.      
+      </p>
+
+      <p>
+        Atual­men­te de­sen­vol­ven­do habi­li­dades vol­tadas à área de frontend, re­a­li­zan­do cur­sos de html, CSS, JavaScript.
+      </p>
+
+      <p>
+        Este site foi construído durante a
+        <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+        😻
+      </p>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2>Projetos</h2>
+
+      <div class="grid">
+		  
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/Tardis.jpg" alt="Tardis">
+            </figure>
+            <div class="card-back">
+              <h3>Tardis</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/cal. Combustível.webp" alt="Calculadora de Combustível">
+            </figure>
+            <div class="card-back">
+              <h3>Calculadora de Combustível</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/índice.jpg" alt="App de Transporte">
+            </figure>
+            <div class="card-back">
+				      <h3>App de Transporte</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/Batimento Cardiaco.jpg" alt="Calculadora de Batimento Cardíaco">
+            </figure>
+            <div class="card-back">
+              <h3>Calculadora de Batimento Cardíacos</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="card">
+            <figure class="card-front">
+              <img class="img-portfolio" src="./img/ideia.jpg" alt="ideia Uber">
+            </figure>
+          <div class="card-back">
+            <p>Simula a tarifa de uma viagem em serviço de carro de aplicativo. Usuário informa a distância e o tempo e, com isso, é calculado e apresentado em tela o valor final, com base em valor de tarifa real. </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+
+      <div class="grid icons">
+        <a target="_blank" href="https://github.com/Berg747">
+          <i class="fab fa-github"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/lindembergmour2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/lindemberg.mourarocha">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/lindembergmourarocha/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+    <footer class="container">Desenvolvido por Lindemberg Moura R. Sobrinho</footer>
+    <div id="voltarTopo">
 			<a href="#top" id="subir"><img src="./img/top.png" alt="to top icon"></a>
-		</div>
-		
-	</section>
-	
-</body>
+    </div>
+    <div class="content"></div>
+  </body>
 </html>
